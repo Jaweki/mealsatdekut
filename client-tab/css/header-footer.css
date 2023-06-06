@@ -1,0 +1,73 @@
+.header {
+    height: 3cm;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: green;
+    z-index: -999; /* Ensure the header is above other content */
+    transform-style: flat;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    margin-right: 10px;
+    border-radius: 30%;
+  }
+  
+  .logo h1 {
+    font-family: Arial, sans-serif; /* Adjust the font family */
+    font-size: 24px; /* Adjust the font size */
+  }
+  
+  .manager-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .manager-info img {
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1) inset;
+  }
+  
+  .managers-name {
+    font-family: Arial, sans-serif; /* Adjust the font family */
+    font-size: 18px; /* Adjust the font size */
+  }
+  
+
+  .footer {
+    position: absolute;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1) inset;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    z-index: -999;
+    transform-style: flat;
+  }
+
+  .calendar {
+    font-weight: bold;
+  }
+
+  .footer .copyright {
+    font-size: 12px;
+  }
